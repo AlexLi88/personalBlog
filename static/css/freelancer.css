@@ -10,6 +10,14 @@ body {
 
 p {
     font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 0px;
+margin-bottom: 10px;
 }
 
 p.small {
@@ -22,8 +30,15 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #50b7c8;
 }
+
+
+.devicon-git-plain {
+  max-width: 2em;
+}
+
+
 
 h1,
 h2,
@@ -36,6 +51,7 @@ h6 {
     font-weight: 700;
 }
 
+hr.star-new,
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -46,6 +62,7 @@ hr.star-primary {
     text-align: center;
 }
 
+hr.star-new:after,
 hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";
@@ -56,6 +73,14 @@ hr.star-primary:after {
     font-family: FontAwesome;
     font-size: 2em;
 }
+hr.star-new{
+    border-color:#1c4c55;
+}
+
+hr.star-new:after{
+    color:#1c4c55;
+    background-color: #818181;
+}
 
 hr.star-light {
     border-color: #fff;
@@ -63,7 +88,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #50b7c8;
 }
 
 hr.star-primary {
@@ -82,7 +107,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #50b7c8;
 }
 
 header .container {
@@ -148,10 +173,19 @@ header .intro-text .skills {
 }
 
 .navbar {
+    background-color: #233140;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+
 
 .navbar a:focus {
     outline: 0;
@@ -181,8 +215,16 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #818181;
 }
+
+.icon-container{
+   
+
+
+}
+
+
 
 @media(max-width:767px) {
     section {
@@ -265,7 +307,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #50b7c8;
     background: #fff;
 }
 
@@ -318,7 +360,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #50b7c8;
 }
 
 form .row:first-child .floating-label-form-group {
