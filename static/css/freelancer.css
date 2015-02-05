@@ -216,7 +216,7 @@ section h2 {
 section.success {
     color: #fff;
     background: #818181;
-    padding: 80px;
+    /*padding: 80px;*/
 }
 
 .icon-container{
