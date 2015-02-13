@@ -3,7 +3,10 @@ from .models import Post
 from .forms import PostForm
 # Create your views here.
 #aaaa
+def index(request):
+	return render('blog/base.html')
 
+	
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
     return render(request, 'blog/post_detail.html', {'post': post})
